@@ -360,7 +360,7 @@
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/img30.jpg', alt='Imagen decorativa')
-      .col.col-lg-6.col-12.order-lg-2.order-2
+      .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") Como resultado de este proceso, se logra una organización sin redundancia, donde cada dato se almacena una sola vez y se vincula con otros mediante relaciones bien definidas. Esta disposición facilita la actualización de la información, mejora la eficiencia del almacenamiento y reduce el riesgo de inconsistencias cuando se realizan modificaciones en el sistema.
         p.mb-0 Una base de datos normalizada presenta un mayor control estructural, ya que las reglas que regulan el almacenamiento, la relación y la modificación de los datos se aplican de manera consistente. Esto permite mantener la coherencia de la información frente a diferentes operaciones y evita errores derivados de una organización deficiente.

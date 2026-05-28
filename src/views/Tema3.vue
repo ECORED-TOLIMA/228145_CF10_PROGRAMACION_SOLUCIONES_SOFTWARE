@@ -107,7 +107,7 @@
               h3.mb-0.ms-lg-3.ms-md-3.ms-1 Gestión del ciclo de vida de la información
     p.mb-0(data-aos="fade-down") La información dentro de un sistema atraviesa diferentes etapas desde su creación hasta su eliminación. La gestión del ciclo de vida permite controlar cada una de estas fases, asegurando que los datos sean tratados de forma coherente y bajo condiciones definidas en todo momento.
     .row.BG01.justify-content-center.px-4.py-4.mb-0
-      .col-lg-10.col-12.order-lg-1.order-2
+      .col.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Este proceso comprende:
         ol.lista-ol--cuadro.lista-ol--separador
           li.mb-3
@@ -256,7 +256,7 @@
     p(data-aos="fade-down") La seguridad de la información no se limita al control de acceso, sino que incorpora mecanismos que permiten validar las acciones, proteger el contenido y supervisar el uso de los datos. Estos mecanismos operan de forma integrada para garantizar que cada interacción con la información sea coherente con las políticas establecidas y se realice dentro de un entorno controlado.
     p.mb-0(data-aos="fade-down") En este contexto, se consideran los siguientes mecanismos fundamentales:
     .row.BG01.justify-content-center.px-4.py-4.mb-0
-      .col-lg-11.col-12.order-lg-1.order-2
+      .col.col-12.order-lg-1.order-2
         ol.lista-ol--cuadro.lista-ol--separador
           li.mb-3
             .lista-ol--cuadro__vineta

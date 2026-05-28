@@ -9,7 +9,7 @@
     figure.mb-0
       img(src='@/assets/curso/tema5/img01.jpg', alt='Imagen decorativa')
     .row.BG01.justify-content-center.px-4.py-4.mb-0
-      .col.col-lg-11.col-12
+      .col.col-12
         p El diseño de interfaces para aplicaciones <em>web</em> y móviles se enfoca en la construcción de entornos digitales que permiten la interacción del usuario a través de dispositivos con características técnicas distintas. Este proceso implica definir estructuras visuales y funcionales que respondan a condiciones variables como el tamaño de pantalla, el tipo de interacción y la capacidad de procesamiento. La interfaz se organiza mediante componentes que mantienen coherencia en su comportamiento, lo que permite presentar la información de forma estructurada y garantizar que las acciones del usuario sean interpretadas de manera consistente en distintos entornos. La integración de estos elementos permite que el sistema opere de forma uniforme independientemente del dispositivo en el que se ejecute. 
         p.mb-0 Con el fin de sintetizar estos conceptos, a continuación, se presenta una representación visual que integra los principales elementos del diseño de interfaces para aplicaciones <em>web</em> y móviles, destacando la relación entre dispositivos, componentes, interacción y adaptación del sistema:
     .row.justify-content-center.mb-4(data-aos="flip-up")

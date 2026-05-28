@@ -95,7 +95,7 @@
     figure.mb-0
       img(src='@/assets/curso/tema1/img04.jpg', alt='Imagen decorativa')
     .row.BG01.justify-content-center.px-4.py-4.mb-0
-      .col.col-lg-11.col-12.mb-lg-0.mb-3.order-lg-2.order-2
+      .col.col-lg-12.col-12.mb-lg-0.mb-3.order-lg-2.order-2
         p(data-aos="fade-down") Las bases de datos constituyen el núcleo de los sistemas de información modernos, al proporcionar los mecanismos necesarios para almacenar, organizar y gestionar grandes volúmenes de datos de manera estructurada y controlada. Su importancia radica en que permiten transformar datos aislados en información coherente, accesible y confiable, facilitando su uso en distintos contextos organizacionales y tecnológicos. A través de reglas, estructuras y procesos definidos, una base de datos garantiza la consistencia de la información, el acceso concurrente de múltiples usuarios y la protección de los datos frente a errores o accesos no autorizados. Comprender sus conceptos fundamentales, características técnicas y tipos resulta esencial para analizar cómo se diseñan, implementan y utilizan dentro de un sistema de información.
         p.mb-0(data-aos="fade-down") A partir de este marco general, se presenta un enfoque integrado de las bases de datos como componentes esenciales para la organización, gestión y uso controlado de la información dentro de los sistemas de información:
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C02" data-aos="zoom-in")

@@ -99,11 +99,11 @@ figcaption
   background-repeat: no-repeat
   background-size: 100% 100% 
   margin-inline: -5.2rem !important
+  padding-inline: 5.2rem !important // Contrarresta el margen en pantallas grandes
   @media (max-width: $bp-max-md)
-    margin-inline: -1.5rem !important 
-    padding-left: 0 !important 
-    padding-right: 0 !important 
-    background-size: cover 
+    margin-inline: -1.5rem !important // Mantiene el fondo saliéndose un poco
+    padding-inline: 1.5rem !important // Fuerza al texto a empujarse hacia adentro 1.5rem
+    background-size: cover
 .tarjeta--BG02
   background-image: url("../assets/curso/BG02.png")
   background-size: cover
@@ -131,43 +131,52 @@ figcaption
 .table
   width: 100%
   border-collapse: collapse
+
 thead
   tr
     th
       background-color: #FFEEBC
+
 .tabla-a.color-acento-contenido
   td
     text-align: left
+
 .tabla-a.color-primario
   th
     background-color: #FFEEBC
   td
     text-align: left
+
 .tabla-a.responsive
   width: 100%
   overflow-x: auto
   -webkit-overflow-scrolling: touch
   border-radius: 8px
+  
+  // Se corrigió la indentación aquí
   th, td
-  padding: 0.75rem
-  text-align: left
-  vertical-align: top
-  word-break: break-word
-  hyphens: auto
-  white-space: nowrap
-  padding: 0.75rem
-  text-align: center
+    padding: 0.75rem
+    vertical-align: middle // Cambiado a middle para mejorar la estética visual
+    text-align: center
+    // CLAVE: Permitir que el texto salte de línea y romper palabras largas si es necesario
+    white-space: normal !important 
+    word-break: break-word 
+    hyphens: auto
+
 .tabla-a.responsive table
-  min-width: 970px
+  width: 100% // Cambiado de min-width: 970px para que se adapte al contenedor
   border-collapse: collapse
+
+// Se eliminó white-space: nowrap de esta regla repetida
 .tabla-a.responsive th, .tabla-a.responsive td
-  white-space: nowrap
   padding: 0.75rem
   text-align: center
+
 @media (max-width: 768px)
   th, td
-    font-size: 0.85rem
+    font-size: 0.8rem // Reducido un poco más para pantallas móviles
     padding: 0.5rem
+    word-break: break-word
 //- Modulo acordions
 .acordion
   .acordion__activo

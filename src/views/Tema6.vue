@@ -9,7 +9,7 @@
     figure.mb-0
       img(src='@/assets/curso/tema6/img01.jpg', alt='Imagen decorativa')
     .row.BG01.justify-content-center.px-4.py-4.mb-0
-      .col.col-lg-11.col-12
+      .col.col-12
         p El prototipado de interfaces de usuario constituye un proceso de representación anticipada mediante el cual se definen la estructura, organización visual e interacción de un sistema antes de su implementación definitiva. A través de este proceso se construyen modelos que permiten visualizar la disposición de los componentes, la relación entre los elementos y los comportamientos esperados dentro de la interfaz. El prototipado facilita la evaluación temprana de la coherencia estructural, permitiendo identificar ajustes en la organización del contenido y en la lógica de interacción, manteniendo control sobre la evolución progresiva del diseño desde representaciones iniciales hasta versiones más cercanas al producto final.
         p.mb-0 A partir de esta visión general, el prototipado se presenta como un proceso clave para explorar, organizar y refinar la interfaz de usuario antes de su implementación. A continuación, se abordan las principales dimensiones que intervienen en su construcción, evaluación y evolución:
     AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--C02" data-aos="zoom-in")
@@ -280,7 +280,7 @@
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema6/img21.jpg', alt='Imagen decorativa')
-      .col.col-lg-6.col-12.order-lg-1.order-2
+      .col.col-lg-8.col-12.order-lg-1.order-2
         .row.justify-content-center.mb-4
           .col.col-12
             .row.align-items-center.mb-0(data-aos="flip-down")
@@ -290,8 +290,8 @@
               .col-lg-auto.col-9.titulo01(style="z-index:1")
                 .p-2
                   h3.mb-0.ms-lg-2.ms-md-3.ms-1 Simulación y validación del comportamiento del prototipo
-        p.mb-4(data-aos="fade-down") Las herramientas de prototipado permiten simular la interacción del usuario mediante la definición de eventos, estados y transiciones entre vistas. Esta simulación permite anticipar el comportamiento del sistema antes de su implementación.
-        p.mb-4(data-aos="fade-down") La simulación de interacción facilita la validación de la respuesta del sistema frente a acciones del usuario, permitiendo identificar inconsistencias en la lógica de uso.
+        p.mb-3(data-aos="fade-down") Las herramientas de prototipado permiten simular la interacción del usuario mediante la definición de eventos, estados y transiciones entre vistas. Esta simulación permite anticipar el comportamiento del sistema antes de su implementación.
+        p.mb-3(data-aos="fade-down") La simulación de interacción facilita la validación de la respuesta del sistema frente a acciones del usuario, permitiendo identificar inconsistencias en la lógica de uso.
         p.mb-0(data-aos="fade-down") Este proceso apoya la evaluación temprana del diseño, asegurando que la interfaz responda de forma coherente en diferentes escenarios de interacción.
     .row.justify-content-center.mb-4
       .col.col-12

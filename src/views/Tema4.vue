@@ -174,11 +174,11 @@
       .col.col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img19.jpg', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-2.order-2
+      .col.col-lg-8.col-12.order-lg-2.order-2
         .row.justify-content-center
           .col
-            p.mb-0(data-aos="fade-down") Por su parte, las relaciones cromáticas permiten combinar colores de manera controlada, asegurando armonía y coherencia dentro de la interfaz. Estas relaciones ayudan a estructurar visualmente el sistema y a evitar inconsistencias, destacando las siguientes: 
-            ul.lista-ul--color.mt-4(data-aos="fade-down")
+            p.mb-1(data-aos="fade-down") Por su parte, las relaciones cromáticas permiten combinar colores de manera controlada, asegurando armonía y coherencia dentro de la interfaz. Estas relaciones ayudan a estructurar visualmente el sistema y a evitar inconsistencias, destacando las siguientes: 
+            ul.lista-ul--color.mt-1(data-aos="fade-down")
               li
                 i.fas.fa-computer
                 p.mb-0 Monocromática, basada en variaciones de un mismo tono, favorece la uniformidad.
@@ -191,8 +191,8 @@
               li
                 i.fas.fa-computer
                 p.mb-0 Triádica, equilibra tres colores para una distribución armónica y dinámica.
-            p.mb-0(data-aos="fade-down") Para realizar la aplicación en el color, este se aplica directamente sobre los componentes de la interfaz para comunicar acciones, estados y contextos de uso. Su función es reforzar la interacción y facilitar la comprensión del sistema. Además, su accionar se da en lo siguiente:
-            ul.lista-ul--color.mt-4(data-aos="fade-down")
+            p.mb-1(data-aos="fade-down") Para realizar la aplicación en el color, este se aplica directamente sobre los componentes de la interfaz para comunicar acciones, estados y contextos de uso. Su función es reforzar la interacción y facilitar la comprensión del sistema. Además, su accionar se da en lo siguiente:
+            ul.lista-ul--color.mt-1(data-aos="fade-down")
               li
                 i.fas.fa-computer
                 p.mb-0 En botones, indica acciones disponibles o estados activos.
