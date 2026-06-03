@@ -151,9 +151,12 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema6/img13.svg', alt='Figura 7 que representa un diagrama de navegación en un prototipo de interfaz móvil, mostrando la secuencia de pantallas, las acciones del usuario, las transiciones entre vistas y los distintos estados del sistema, con el fin de visualizar el recorrido del usuario y la lógica de interacción dentro de la aplicación.')
-      .col-12.mb-0
-        figure.movil
-          img(src='@/assets/curso/tema6/img13.svg', alt='Figura 7 que representa un diagrama de navegación en un prototipo de interfaz móvil, mostrando la secuencia de pantallas, las acciones del usuario, las transiciones entre vistas y los distintos estados del sistema, con el fin de visualizar el recorrido del usuario y la lógica de interacción dentro de la aplicación.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Flujo_de_navegacion_y_simulacion_de_interacción_en_un_prototipo_de_interfaz.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Arquitectura de componentes
     .row.justify-content-center.mb-4
       .col.col-12
         .row.align-items-center.mb-0(data-aos="flip-down")

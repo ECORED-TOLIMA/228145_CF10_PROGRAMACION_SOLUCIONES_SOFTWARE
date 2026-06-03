@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Modelado de datos y diseño de interfaces gráficas',
     Description:
-      'Este componente aborda fundamentos de bases de datos, modelado y organización de la información, incluyendo seguridad y análisis de datos. Integra principios de diseño de interfaces gráficas, usabilidad y desarrollo web y móvil, finalizando con técnicas y herramientas de prototipado para la construcción de soluciones digitales estructuradas y centradas en el usuario.',
+      'Este componente aborda fundamentos de bases de datos, modelado y organización de la información, incluyendo seguridad y análisis de datos. Integra principios de diseño de interfaces gráficas, usabilidad y desarrollo <em>web</em> y móvil, finalizando con técnicas y herramientas de prototipado para la construcción de soluciones digitales estructuradas y centradas en el usuario.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -100,7 +100,7 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Usabilidad, accesibilidad y estándares web',
+            titulo: 'Usabilidad, accesibilidad y estándares <em>web</em>',
             hash: 't_4_2',
           },
         ],
@@ -108,12 +108,13 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Diseño de interfaces para aplicaciones web y móviles',
+        titulo: 'Diseño de interfaces para aplicaciones <em>web</em> y móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '5.1',
-            titulo: '<em>Frameworks</em> <em>front-end</em> y web semántica',
+            titulo:
+              '<em>Frameworks</em> <em>front-end</em> y <em>web</em> semántica',
             hash: 't_5_1',
           },
           {
@@ -137,7 +138,7 @@ export default {
           {
             numero: '6.2',
             titulo:
-              'Herramientas de apoyo y prototipos para aplicaciones web, <em>stand-alone</em> y móviles',
+              'Herramientas de apoyo y prototipos para aplicaciones <em>web</em>, <em>stand-alone</em> y móviles',
             hash: 't_6_2',
           },
         ],
@@ -192,7 +193,7 @@ export default {
   //   {
   //     tema: '',
   //     referencia: '',
-  //     tipo: 'Sitio web',
+  //     tipo: 'Sitio <em>web</em>',
   //     link: '',
   //   },
   // ],
@@ -220,7 +221,7 @@ export default {
     {
       termino: 'Framework <em>front-end</em>',
       significado:
-        'estructura de desarrollo que proporciona herramientas y componentes para construir interfaces de usuario, facilitando la organización del código y la interacción en aplicaciones web.',
+        'estructura de desarrollo que proporciona herramientas y componentes para construir interfaces de usuario, facilitando la organización del código y la interacción en aplicaciones <em>web</em>.',
     },
     {
       termino: 'Modelo lógico de datos',
@@ -286,7 +287,7 @@ export default {
     },
     {
       referencia:
-        'World Wide Web Consortium (W3C). (2018). <em>Web Content Accessibility Guidelines</em> (WCAG) 2.1.',
+        'World Wide <em>web</em> Consortium (W3C). (2018). <em><em>web</em> Content Accessibility Guidelines</em> (WCAG) 2.1.',
       link: '',
     },
   ],

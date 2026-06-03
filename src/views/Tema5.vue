@@ -376,7 +376,7 @@
               p.mb-0 Conecta vistas y pantallas a través de recorridos claros y continuos que permitan al usuario comprender su ubicación dentro de la aplicación. La arquitectura de navegación debe mantener coherencia entre secciones, facilitar el retorno a pantallas previas y minimizar pasos innecesarios.
           .row(numero="4" titulo="Adaptabilidad y rendimiento")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Ajusta la interfaz a diferentes tamaños de pantalla, resoluciones y capacidades de hardware para garantizar una experiencia consistente. La optimización de recursos, tiempos de carga y transiciones contribuye a mantener fluidez y estabilidad en distintos dispositivos y condiciones de uso.
+              p.mb-0 Ajusta la interfaz a diferentes tamaños de pantalla, resoluciones y capacidades de <em>hardware</em> para garantizar una experiencia consistente. La optimización de recursos, tiempos de carga y transiciones contribuye a mantener fluidez y estabilidad en distintos dispositivos y condiciones de uso.
           .row(numero="5" titulo="Atención al contexto de uso")
             .col-12.mb-4.mb-md-0
               p.mb-0 Diseña considerando escenarios de movilidad, interrupciones frecuentes y periodos de interacción breves. La interfaz debe permitir retomar tareas fácilmente, priorizar acciones rápidas y asegurar legibilidad y accesibilidad en entornos cambiantes.
@@ -388,7 +388,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/sdHDf9hFABw?si=5drasZJfF7DWfbKv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/PQoslZTMOaE?si=7aNj5MHwDbBr_WMP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

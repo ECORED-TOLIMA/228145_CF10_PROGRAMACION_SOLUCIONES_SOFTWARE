@@ -310,19 +310,19 @@
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 <em>Big data</em> y aplicaciones en el manejo de datos
-    p.mb-4(data-aos="fade-down") El <em>Big data</em> se refiere al tratamiento y gestión de grandes volúmenes de datos cuya magnitud, diversidad y velocidad de generación superan las capacidades de las herramientas tradicionales. Este tipo de información exige infraestructuras especializadas que permitan almacenar, procesar e integrar datos provenientes de múltiples fuentes, manteniendo su disponibilidad y utilidad en distintos contextos operativos.
+    p.mb-4(data-aos="fade-down") El <em>big data</em> se refiere al tratamiento y gestión de grandes volúmenes de datos cuya magnitud, diversidad y velocidad de generación superan las capacidades de las herramientas tradicionales. Este tipo de información exige infraestructuras especializadas que permitan almacenar, procesar e integrar datos provenientes de múltiples fuentes, manteniendo su disponibilidad y utilidad en distintos contextos operativos.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img13.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p La gestión de <em>Big data</em> se apoya en arquitecturas distribuidas que fragmentan los datos en múltiples nodos y habilitan el procesamiento paralelo, reduciendo tiempos de respuesta y mejorando la eficiencia del sistema. Estas arquitecturas permiten manejar información estructurada, semiestructurada y no estructurada, favoreciendo la flexibilidad y la adaptabilidad frente a escenarios cambiantes. En este entorno, el valor del <em>Big data</em> no reside únicamente en el almacenamiento, sino en la capacidad de transformar grandes volúmenes de datos en información significativa para el análisis y la toma de decisiones.
+        p La gestión de <em>big data</em> se apoya en arquitecturas distribuidas que fragmentan los datos en múltiples nodos y habilitan el procesamiento paralelo, reduciendo tiempos de respuesta y mejorando la eficiencia del sistema. Estas arquitecturas permiten manejar información estructurada, semiestructurada y no estructurada, favoreciendo la flexibilidad y la adaptabilidad frente a escenarios cambiantes. En este entorno, el valor del <em>Big data</em> no reside únicamente en el almacenamiento, sino en la capacidad de transformar grandes volúmenes de datos en información significativa para el análisis y la toma de decisiones.
     p.mb-4(data-aos="fade-down") Igualmente, se poseen la siguiente dimensiones:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span Las cinco dimensiones del <em>Big data</em>
+          span Las cinco dimensiones del <em>big data</em>
       .row.justify-content-center
         .col-10
           figure.desktop
@@ -332,7 +332,7 @@
           img(src='@/assets/curso/tema3/img15.svg', alt='Figura 1 que menciona las 5 dimensiones o 5 “V” del <em>Big data</em>, las cuales son: volumen, velocidad, variedad, veracidad y valor.')
     .row.justify-content-center.mb-4
       .col-lg-10.col-12
-        p.mb-0 Basado en la anterior imagen, se debe saber que el comportamiento del <em>Big data</em> dentro de los sistemas de información se comprende a partir de cinco dimensiones que definen sus exigencias técnicas y operativas: el volumen representa la cantidad masiva de datos que deben ser almacenados y gestionados; la velocidad se relaciona con la generación continua de información y la necesidad de procesamiento oportuno; la variedad alude a la coexistencia de múltiples formatos y fuentes de datos; la veracidad se vincula con la calidad y confiabilidad de la información; mientras que el valor se manifiesta cuando los datos procesados generan conocimiento útil para apoyar decisiones.
+        p.mb-0 Basado en la anterior imagen, se debe saber que el comportamiento del <em>big data</em> dentro de los sistemas de información se comprende a partir de cinco dimensiones que definen sus exigencias técnicas y operativas: el <b>volumen</b> representa la cantidad masiva de datos que deben ser almacenados y gestionados; la <b>velocidad</b> se relaciona con la generación continua de información y la necesidad de procesamiento oportuno; la <b>variedad</b> alude a la coexistencia de múltiples formatos y fuentes de datos; la veracidad se vincula con la calidad y confiabilidad de la información; mientras que el valor se manifiesta cuando los datos procesados generan conocimiento útil para apoyar decisiones.
     .row.justify-content-center.mb-4
       .col.col-12
         .row.align-items-center.mb-0(data-aos="flip-down")
@@ -341,8 +341,8 @@
               img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-2
-              h3.mb-0.ms-lg-3.ms-md-3.ms-1 Componentes funcionales del <em>Big data</em>
-    p.mb-4(data-aos="fade-down") A continuación, se presentan los principales componentes que articulan el funcionamiento del <em>Big data</em> dentro de los sistemas de información:
+              h3.mb-0.ms-lg-3.ms-md-3.ms-1 Componentes funcionales del <em>big data</em>
+    p.mb-4(data-aos="fade-down") A continuación, se presentan los principales componentes que articulan el funcionamiento del <em>big data</em> dentro de los sistemas de información:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
@@ -372,20 +372,20 @@
               img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-2
-              h3.mb-0.ms-lg-3.ms-md-3.ms-1 Uso del <em>Big data</em> en los sistemas de información
+              h3.mb-0.ms-lg-3.ms-md-3.ms-1 Uso del <em>big data</em> en los sistemas de información
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img17.jpg', alt='Imagen decorativa')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
-          p.mb-0(data-aos="fade-down") En los sistemas de información, el <em>Big data</em> permite organizar, analizar y monitorear grandes conjuntos de datos de manera continua. Su aplicación fortalece el control de la información, facilita la generación de conocimiento y mejora la capacidad del sistema para responder a necesidades operativas y estratégicas. Al integrar procesamiento, análisis y control de calidad, el <em>Big data</em> se convierte en un elemento transversal que soporta la gestión eficiente de la información.
-        p.mb-0 Con el fin de integrar de manera sintética los principales elementos abordados sobre el <em>Big data</em> en sistemas de información, se presenta a continuación una tabla integradora que articula las dimensiones técnicas, operativas y funcionales involucradas en su gestión. Esta organización permite identificar de forma conjunta cómo el almacenamiento, el procesamiento, la integración, el análisis y la calidad de los datos se relacionan dentro del sistema y contribuyen a una gestión eficiente de grandes volúmenes de información:
+          p.mb-0(data-aos="fade-down") En los sistemas de información, el <em>big data</em> permite organizar, analizar y monitorear grandes conjuntos de datos de manera continua. Su aplicación fortalece el control de la información, facilita la generación de conocimiento y mejora la capacidad del sistema para responder a necesidades operativas y estratégicas. Al integrar procesamiento, análisis y control de calidad, el <em>big data</em> se convierte en un elemento transversal que soporta la gestión eficiente de la información.
+        p.mb-0 Con el fin de integrar de manera sintética los principales elementos abordados sobre el <em>big data</em> en sistemas de información, se presenta a continuación una tabla integradora que articula las dimensiones técnicas, operativas y funcionales involucradas en su gestión. Esta organización permite identificar de forma conjunta cómo el almacenamiento, el procesamiento, la integración, el análisis y la calidad de los datos se relacionan dentro del sistema y contribuyen a una gestión eficiente de grandes volúmenes de información:
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8.
-          span Integración del <em>Big data</em> en sistemas de información
+          span Integración del <em>big data</em> en sistemas de información
         .tabla-a.color-acento-contenido
           table
             thead

@@ -197,7 +197,7 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué caracteriza al <em>Big data</em>?',
+          texto: '¿Qué caracteriza al <em>big data</em>?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -378,7 +378,7 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Ejecutar programas.', esCorrecta: false },
-            { id: 'b', texto: 'Diseñar hardware.', esCorrecta: false },
+            { id: 'b', texto: 'Diseñar <em>hardware</em>.', esCorrecta: false },
             {
               id: 'c',
               texto: 'Simular interacción de usuario.',
