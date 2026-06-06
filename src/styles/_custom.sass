@@ -35,10 +35,10 @@
     transform: translateX(20px)
   100%
     transform: translateX(0px)
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 650px !important
+// .banner-principal .tarjeta
+//   background-position: left 50% !important
+// .banner-principal__row .banner-principal__img
+//   width: 500px !important
 // .titulo-principal.color-acento-contenido .titulo-principal__numero span
 //   color: black !important
 .banner-interno__titulo__icono i
@@ -46,19 +46,22 @@
 .barra-avance__boton--regresar span
   color: $white !important
 .banner-principal
+  .banner-principal__row
+    transform: translateY(35px)
+.banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
-    background-size: cover
+    background-size: 100% 100% !important
     background-position: center
-    background-repeat: no-repeat
-    min-height: auto
+    min-height: 520px
     @media (max-width: $bp-max-md)
-      background-size: contain
-      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
     @media (max-width: $bp-max-xs)
-      background-size: cover
-      min-height: 550px
-      background-color: #68EAE0
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner.png") !important
   background-size: cover
