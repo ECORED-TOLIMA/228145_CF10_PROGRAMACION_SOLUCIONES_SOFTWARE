@@ -405,7 +405,6 @@
         p.mb-2 Esta organización permite mejorar la lectura, el acceso a la información y la coherencia visual dentro del sistema.
         .cajon.cajon.C01.color-primario.p-4.py-3.mb-2
           p.mb-0(data-aos="fade-down") Como proceso final, la experiencia de usuario se evalúa analizando la interacción real con el sistema, considerando tiempos de respuesta, errores, satisfacción y fluidez de uso. Este análisis permite identificar oportunidades de mejora en el diseño de la interfaz.
-        p.mb-2 La interacción dentro del sistema se basa en acciones fundamentales como navegar, seleccionar, ingresar datos y recibir retroalimentación. Estas acciones determinan el comportamiento de la interfaz y la forma en que el usuario percibe la respuesta del sistema.
         p.mb-0 Por otro lado, la adaptación a estándares tecnológicos asegura que la interfaz funcione correctamente en distintos dispositivos y contextos. Esto implica ajustes en responsividad, compatibilidad, escalabilidad e interoperabilidad.
 </template>
 
