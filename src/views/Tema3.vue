@@ -113,15 +113,15 @@
           li.mb-3
             .lista-ol--cuadro__vineta
               span.text-bold 1
-            p.mb-0 Autenticación orientada a la verificación confiable de la identidad de los usuarios antes de permitir el acceso al sistema
+            p.mb-0 Autenticación orientada a la verificación confiable de la identidad de los usuarios antes de permitir el acceso al sistema.
           li.mb-3
             .lista-ol--cuadro__vineta
               span.text-bold 2
-            p.mb-0 Autorización enfocada en regular el uso y alcance de los datos mediante permisos definidos según roles
+            p.mb-0 Autorización enfocada en regular el uso y alcance de los datos mediante permisos definidos según roles.
           li.mb-3
             .lista-ol--cuadro__vineta
               span.text-bold 3
-            p.mb-0 Cifrado aplicado para proteger la información tanto en almacenamiento como en transmisión frente a accesos no autorizados
+            p.mb-0 Cifrado aplicado para proteger la información tanto en almacenamiento como en transmisión frente a accesos no autorizados.
           li.mb-3
             .lista-ol--cuadro__vineta
               span.text-bold 4
@@ -177,7 +177,7 @@
                 td(data-aos="fade-down")(style="background-color: #F3F9FF") Consistencia.
               tr
                 td(data-aos="fade-down") Monitoreo.
-                td(data-aos="fade-down") Registro y auditoria.
+                td(data-aos="fade-down") Registro y auditoría.
                 td(data-aos="fade-down") Seguimiento continuo.
                 td(data-aos="fade-down") Trazabilidad.
               tr
@@ -275,6 +275,15 @@
               span.text-bold 4
             p.mb-0 Auditoría destinada al registro y seguimiento de las actividades realizadas sobre los datos, permitiendo control y trazabilidad.
     .row.justify-content-center.mb-4
+      .col.col-12
+        .row.align-items-center.mb-0(data-aos="flip-down")
+          .col-auto.pe-0(style="z-index:2")
+            figure
+              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
+          .col-lg-auto.col-9.titulo01(style="z-index:1")
+            .p-2
+              h3.mb-0.ms-lg-3.ms-md-3.ms-1 Gestión de identidades, permisos y sesiones
+    .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img10.jpg', alt='Imagen decorativa')
@@ -317,7 +326,7 @@
       )
       .bloque-texto-g__texto.p-4
         p La gestión de <em>big data</em> se apoya en arquitecturas distribuidas que fragmentan los datos en múltiples nodos y habilitan el procesamiento paralelo, reduciendo tiempos de respuesta y mejorando la eficiencia del sistema. Estas arquitecturas permiten manejar información estructurada, semiestructurada y no estructurada, favoreciendo la flexibilidad y la adaptabilidad frente a escenarios cambiantes. En este entorno, el valor del <em>Big data</em> no reside únicamente en el almacenamiento, sino en la capacidad de transformar grandes volúmenes de datos en información significativa para el análisis y la toma de decisiones.
-    p.mb-4(data-aos="fade-down") Igualmente, se poseen la siguiente dimensiones:
+    p.mb-4(data-aos="fade-down") Igualmente, se poseen las siguientes dimensiones:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -428,7 +437,7 @@
                 td(data-aos="fade-down")(style="background-color: #F3F9FF") Información confiable y utilizable.
               tr
                 td(data-aos="fade-down") Gestión del sistema.
-                td(data-aos="fade-down") Uso integral del <em>Big data</em> en entornos operativos.
+                td(data-aos="fade-down") Uso integral del <em>big data</em> en entornos operativos.
                 td(data-aos="fade-down") Coordinación de almacenamiento, procesamiento y análisis.
                 td(data-aos="fade-down") Supervisión y control continuo.
                 td(data-aos="fade-down") Fortalecimiento de la gestión de la información.

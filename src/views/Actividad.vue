@@ -313,7 +313,7 @@ export default {
         },
         {
           id: 17,
-          texto: '¿Qué permite un framework <em>front-end</em>?',
+          texto: '¿Qué permite un <em>framework front-end</em>?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [

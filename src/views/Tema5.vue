@@ -22,7 +22,7 @@
           figure.desktop
             img(src='@/assets/curso/tema5/img02.svg', alt='Figura 4 que representa de manera infográfica el diseño de interfaces para aplicaciones <em>web</em> y móviles, mostrando la relación entre dispositivos, componentes de la interfaz, interacción del usuario y adaptación del diseño a diferentes entornos tecnológicos.')
         .col-auto.movil
-          a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_ Diseño_de_interface_para_aplicaciones_<em>web</em>_y moviles.pdf')" target="_blank")
+          a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_ Diseño_de_interface_para_aplicaciones_web_y moviles.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/bullets/icono-pdf.svg")
             .anexo__texto
@@ -48,6 +48,7 @@
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema5/img03.jpg', alt='Imagen decorativa')
+    p.mb-4(data-aos="fade-down") En las aplicaciones móviles, el diseño se adapta a la interacción táctil y a espacios reducidos, incorporando gestos como desplazamiento, selección y presión. La información se organiza mediante vistas que segmentan el contenido y facilitan su acceso bajo condiciones de uso dinámicas. Esta adaptación a diferentes dispositivos implica reorganizar los elementos sin alterar su estructura lógica, garantizando que la interfaz mantenga coherencia y funcionalidad en distintos entornos.
     .row.justify-content-center.mb-4
       .col.col-12
         .row.align-items-center.mb-0(data-aos="flip-down")

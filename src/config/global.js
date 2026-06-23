@@ -219,7 +219,7 @@ export default {
         'repositorio que describe los elementos de datos de un sistema, incluyendo sus nombres, tipos, estructuras y restricciones, permitiendo mantener coherencia en su definición.',
     },
     {
-      termino: 'Framework <em>front-end</em>',
+      termino: '<em>Framework front-end</em>',
       significado:
         'estructura de desarrollo que proporciona herramientas y componentes para construir interfaces de usuario, facilitando la organización del código y la interacción en aplicaciones <em>web</em>.',
     },
@@ -287,7 +287,7 @@ export default {
     },
     {
       referencia:
-        'World Wide <em>web</em> Consortium (W3C). (2018). <em><em>web</em> Content Accessibility Guidelines</em> (WCAG) 2.1.',
+        'World Wide <em>Web</em> Consortium (W3C). (2018). <em><em>Web</em> Content Accessibility Guidelines</em> (WCAG) 2.1.',
       link: '',
     },
   ],
@@ -318,7 +318,7 @@ export default {
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Desarrollador full stack',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -347,8 +347,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

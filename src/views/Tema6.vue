@@ -337,7 +337,7 @@
               tr
                 td(data-aos="fade-down") Prototipado según tipo de aplicación y plataforma.
                 td(data-aos="fade-down") Describe cómo se construyen prototipos según el tipo de sistema y su entorno de ejecución.
-                td(data-aos="fade-down") <em>web</em> (navegadores, navegación), <em>stand-alone</em> (escritorio), móvil (táctil, gestos), adaptación multiplataforma.
+                td(data-aos="fade-down") <em>Web</em> (navegadores, navegación), <em>stand-alone</em> (escritorio), móvil (táctil, gestos), adaptación multiplataforma.
               tr
                 td(data-aos="fade-down")(style="background-color: #F3F9FF") Simulación y validación del comportamiento.
                 td(data-aos="fade-down")(style="background-color: #F3F9FF") Permite representar la interacción del usuario para anticipar el funcionamiento del sistema antes del desarrollo.
